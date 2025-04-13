@@ -1,0 +1,26 @@
+* {
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: x-large;
+    background-color: rgb(197, 229, 255);
+    height: 35px;
+    align-content: center;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: rgb(197, 229, 255);
+    border-radius: 5px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: rgb(93, 93, 94);
+    color: beige;
+}
