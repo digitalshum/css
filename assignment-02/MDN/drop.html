@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dropdown Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #333;
+      position: relative;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      min-width: 220px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      padding: 12px 16px;
+      display: block;
+      border-left: 3px solid transparent;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f9f9f9;
+      border-left: 3px solid #d32f2f;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a span {
+      display: block;
+      font-size: 0.85em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#">Learn</a>
+    <div class="dropdown">
+      <a href="#">Plus</a>
+      <div class="dropdown-content">
+        <a href="#"><strong>Overview</strong><span>A customized MDN experience</span></a>
+        <a href="#"><strong>AI Help</strong><span>Get real-time assistance and support</span></a>
+        <a href="#"><strong>Updates</strong><span>All browser compatibility updates at a glance</span></a>
+        <a href="#"><strong>Documentation</strong><span>Learn how to use MDN Plus</span></a>
+        <a href="#"><strong>FAQ</strong><span>Frequently asked questions about MDN Plus</span></a>
+      </div>
+    </div>
+    <a href="#">Curriculum</a>
+    <a href="#">Blog</a>
+    <a href="#">Tools</a>
+  </div>
+
+</body>
+</html>
