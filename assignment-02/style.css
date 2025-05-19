@@ -86,8 +86,20 @@ footer i {
 
 @media (max-width: 450px) {
 
+.parent .project {
+    padding: 1em 1em;
+}
+
+.project .div {
+    width: 90%;
+}    
+
     h1 {
         font-size: 1.2em;
+    }
+
+    .fa-github{
+        margin-top: 6px;
     }
 
     .parent .project .div h2 {
