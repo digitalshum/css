@@ -7,8 +7,6 @@
     <title>MDN</title>
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="./medium.css" media="(max-width:1000px)">
-    <link rel="stylesheet" href="./small.css" media="(max-width:700px)">
     <link rel="stylesheet" href="./extrasmall.css" media="(max-width:425px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -259,7 +257,7 @@
                         Level 5.
                     </p>
                     <a href="#">
-                        <h2>Beginner's tutorials</h2>
+                        <h2 id="beginner">Beginner's tutorials</h2>
                     </a>
                     <a href="#">Your first website: Styling the content</a>
                     <p>This article provides a brief tour of what CSS is and how to use it, aimed at people who are
@@ -283,7 +281,7 @@
                         responsive designs that will adapt to different devices, screen sizes, and resolutions.</p>
                     <br>
                     <a href="#">
-                        <h4>Reference</h4>
+                        <h4 id="reference">Reference</h4>
                     </a>
                     The <a href="#">CSS reference</a> is an exhaustive reference for seasoned Web developers, describing
                     every property and concept of CSS, including:
@@ -325,10 +323,10 @@
                     <div class="last-div">
                         <h4>Help improve MDN</h4>
                         <p>Was this page helpful to you?</p>
-                <div class="improve-btns">
-                    <button class="btn-yes"><i class="fa-solid fa-thumbs-up"></i> Yes</button>
-                    <button class="btn-no"><i class="fa-solid fa-thumbs-down"></i> No</button>
-                </div>
+                        <div class="improve-btns">
+                            <button class="btn-yes"><i class="fa-solid fa-thumbs-up"></i> Yes</button>
+                            <button class="btn-no"><i class="fa-solid fa-thumbs-down"></i> No</button>
+                        </div>
                         <a href="#">Learn how to contribute.</a>
                         <br><br>
                         <p>This page was last modified on Mar 22, 2025 by <a href="#">MDN contributors</a>.</p>
@@ -340,8 +338,10 @@
             <aside class="right-menu">
                 <div class="right-title">In this article</div>
                 <ul>
-                    <li>Beginner's tutorials</li>
-                    <li>Reference</li>
+                    <a href="#beginner">
+                        <li>Beginner's tutorials</li>
+                    </a>
+                    <a href="#reference"><li>Reference</li></a>
                     <li>Cookbook</li>
                     <li>Tools for CSS development</li>
                     <li>Meta bugs</li>
