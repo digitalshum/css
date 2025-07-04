@@ -1,0 +1,809 @@
+
+/* ================ Header Start ================ */
+@media only screen and (max-width: 850px){
+    .dropdown{
+        display: block;
+    }
+
+    header .main nav{
+        display: none;
+    }
+
+    header .main .btn{
+        display: none;
+    }
+}
+/* ================ Header End ================ */
+
+
+/* ================ Hero Section Start ================ */
+@media only screen and (max-width: 1102px){
+    .hero-sec .hero-images .hero-pic-component .small-1{
+        width: 145px;
+        height: 205px;
+    }
+
+    .hero-sec .hero-images .hero-pic-component .small-2{
+        width: 145px;
+        height: 205px;
+    }
+
+    .hero-sec .hero-images .hero-pic-component .large-img{
+        width: 250px; 
+        height: 420px; 
+        position: relative;
+    }
+
+    .hero-sec .hero-content .hero-text{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .hero-sec .hero-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-sec .hero-content .hero-text{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .hero-sec .hero-social{
+        gap: 20px;
+    }
+
+    .hero-sec .hero-social p{
+        font-size: 16px;
+    }
+
+    .hero-sec .hero-social .social-icons{
+        gap: 25px;
+    }
+
+    .hero-sec .hero-social .social-icons img{
+        width: 60px;
+        height: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 520px){
+    .hero-sec .hero-social .social-icons{
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .hero-sec .hero-images .hero-pic-component .small-1{
+        width: 100px;
+        height: 150px;
+    }
+
+    .hero-sec .hero-images .hero-pic-component .small-2{
+        width: 100px;
+        height: 150px;
+    }
+
+    .hero-sec .hero-images .hero-pic-component .large-img{
+        width: 200px; 
+        height: 310px; 
+    }
+
+    .hero-sec .hero-images .escommerce-cont{
+        width: 250px;
+        height: 60px;
+        border-radius: 25px;
+    }
+
+    .hero-sec .hero-images .escommerce-para p{
+        font-size: 12px;
+    }
+
+    .hero-sec .hero-images .escommerce-cont .linear {
+        width: 55px;
+        height: 55px;
+    }
+
+        .hero-sec .hero-images .insta{
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-sec .hero-images .insta img{
+        width: 30px;
+        height: 30px;   
+    }
+}
+
+@media only screen and (max-width: 432px){
+    .hero-sec .inputs .email{
+        padding: 4px;
+    }
+
+    .hero-sec .inputs button{
+        padding: 0 10px;
+    }
+
+    .hero-sec .inputs .email{
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .hero-sec .inputs button{
+        font-size: 12px;
+    }
+
+    .hero-sec .hero-content .hero-text ul{
+        font-size: 12px;
+    }
+
+    .hero-sec .hero-content .hero-text ul{
+        font-size: 12px;
+    }
+
+     .hero-sec .hero-text h1{
+        font-size: 2.5em;
+    }
+
+    .hero-sec .hero-content .hero-text{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 332px){
+    .hero-sec .inputs .email{
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .hero-sec .inputs button{
+        font-size: 12px;
+    }
+
+    .hero-sec .hero-content .hero-text ul{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .hero-sec .hero-images .hero-pic-component .small-1{
+        width: 80px;
+        height: 130px;
+    }
+
+    .hero-sec .hero-images .hero-pic-component .small-2{
+        width: 80px;
+        height: 130px;
+    }
+
+    .hero-sec .hero-images .hero-pic-component .large-img{
+        width: 150px; 
+        height: 270px; 
+    }
+
+    .hero-sec .hero-images {
+        margin: 0 auto;
+    }
+
+    .hero-sec .hero-images .escommerce-cont{
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 330px){
+    .hero-sec .hero-images .insta{
+        top: 60%;
+        right: 84%;
+    }
+}
+/* ================ Hero Section End ================ */
+
+
+/* ================ About Section Start ================ */
+@media only screen and (max-width: 1510px){
+    .about-sec .main{
+        gap: 15em;
+    }
+}
+
+@media only screen and (max-width: 1480px){
+    .about-sec .main{
+        gap: 13em;
+    }
+}
+
+@media only screen and (max-width: 1442px){
+    .about-sec .main{
+        gap: 10em;
+    }
+}
+
+@media only screen and (max-width: 1350px){
+    .about-sec .main{
+        gap: 8em;
+    }
+
+    .about-sec .about-img-site img{
+        width: 700px;
+        min-height: 500px;
+    }
+
+    .about-sec .about-widgets .widgets-content{
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 1206px){
+    .about-sec .main{
+        gap: 5em;
+    }
+
+    .about-sec .about-widgets .widgets-content{
+        gap: 10px;
+    }
+
+    .about-sec .about-widgets h3{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .about-sec .main{
+        gap: 2em;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .about-sec .main{
+        gap: 2em;
+    }
+
+    .about-sec .about-img-site img{
+        width: 600px;
+        min-height: 400px;
+    }
+
+    .about-sec .about-widgets .widgets-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.about-sec .about-widgets .widgets-content p{
+    font-weight: 16px;
+}
+}
+
+@media only screen and (max-width: 900px){
+    .about-sec .main{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .about-sec .about-img-site img{
+        width: 500px;
+        min-height: 350px;
+    }
+}
+
+@media only screen and (max-width: 546px){
+    .about-sec .about-img-site img{
+        width: 400px;
+        min-height: 320px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .about-sec .about-img-site img{
+        width: 350px;
+        min-height: 260px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .about-sec .about-img-site img{
+        width: 320px;
+        min-height: 220px;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .about-sec .about-img-site img{
+        width: 280px;
+        min-height: 180px;
+    }
+
+    .about-sec .about-widgets .widgets-content{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 306px){
+    .about-sec .about-img-site img{
+        width: 260px;
+        min-height: 150px;
+    }
+}
+/* ================ About Section End ================ */
+
+
+/* ================ Benefits Section 1 Start ================ */
+@media only screen and (max-width: 415px){
+    .benifits-sec .benifits-text h2{
+    font-size: 40px;
+}
+}
+/* ================ Benefits Section 1 End ================ */
+
+
+/* ================ Benefits Section 2 Start ================ */
+@media only screen and (max-width: 415px){
+    .benifits-sec-2 .benifits-text h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 325px){
+    .benifits-sec-2 .social-media .media-box .growth p{
+    font-size: 14px;
+    }
+
+    .benifits-sec-2 .social-media .media-box img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .benifits-sec-2 .social-media .media-box .increase-vec{
+        height: 17px;
+    }
+
+    .benifits-sec-2  .social-proof .approved-by img{
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+    }
+
+    .benifits-sec-2  .social-proof p{
+        font-size: 16px;
+    }
+}
+/* ================ Benefits Section 2 End ================ */
+
+
+/* ================ Templates Section Start ================ */
+@media only screen and (max-width: 415px){
+    .templates-sec .benifits-text h2{
+        font-size: 40px;
+    }
+
+    .templates-sec .benifits-text p{
+        font-size: 18px;
+    }
+}
+/* ================ Templates Section End ================ */
+
+
+/* ================ Integrations Section Start ================ */
+@media only screen and (max-width: 1220px){
+    .integrations-sec .main{
+        gap: 6em;
+    }
+
+    .integrations-sec .int-pic{
+        width: 470px;
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .integrations-sec .main{
+        flex-direction: column;
+    }   
+}
+
+@media only screen and (max-width: 488px){
+     .integrations-sec .int-pic{
+        width: 400px;
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .integrations-sec .benifits-text h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 412px){
+     .integrations-sec .int-pic{
+        width: 330px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+     .integrations-sec .int-pic{
+        width: 300px;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 312px){
+     .integrations-sec .int-pic{
+        width: 260px;
+        height: 200px;
+    }
+}
+/* ================ Integrations Section End ================ */
+
+
+/* ================ Features Section 1 Start ================ */
+@media only screen and (max-width: 415px){
+    .features-sec-1 h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .features-sec-1 .features-components span{
+        width: 100%;
+        font-size: 16px;
+    }
+}
+/* ================ Features Section 1 End ================ */
+
+
+/* ================ Features Section 2 Start ================  */
+@media only screen and (max-width: 490px){
+    .features-sec-2 .features-iframe{
+        max-width: 280px; 
+        padding: 10px; 
+        margin: 15px auto; 
+    }
+
+    .features-sec-2 .features-iframe iframe{
+        max-width: 230px; 
+        height: auto;
+    }
+
+    .features-sec-2 .features-iframe h4{
+        font-size: 14px; 
+    }
+
+    .features-sec-2 .iframe-share{
+        gap: 8px; 
+    }
+
+    .features-sec-2 .iframe-icons{
+        width: 50px; 
+    }
+
+    .features-sec-2 .iframe-icons i{
+        font-size: 16px; 
+    }
+
+    .features-sec-2 .iframe-icons p{
+        font-size: 9px; 
+    }
+
+    .features-sec-2 .iframe-icons img{
+        width: 16px; 
+        height: 16px;
+    }
+
+    .features-iframe .color-frame{
+        font-size: 8px;
+    }
+
+    .features-iframe button{
+        width: 80px; 
+        height: 24px;
+        font-size: 7px; 
+    }
+
+    .features-iframe h5{
+        font-size: 12px; 
+    }
+
+    .features-iframe h5 span{
+        font-size: 12px; 
+    }
+}
+
+
+@media only screen and (max-width: 415px){
+    .features-sec-2 h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .features-sec-2 .features-components span{
+        width: 100%;
+        font-size: 16px;
+    }
+}
+/* ================ Features Section 2 End ================ */
+
+
+/* ================ CTA Section Start ================ */
+@media only screen and (max-width: 1330px){
+    .cta-sec .hero-pic-component img{
+        width: 240px; 
+        height: 355px; 
+    }
+
+    .cta-sec .main{
+        padding: 20px;
+        display: flex;
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 1210px){
+    .cta-sec .main{
+        flex-direction: column;
+    }
+
+    .cta-sec .hero-content{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .cta-sec .hero-pic-component {
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media only screen and (max-width: 432px){
+    .cta-sec .inputs .email{
+        padding: 4px;
+    }
+
+    .cta-sec .inputs button{
+        padding: 0 10px;
+    }
+
+    .cta-sec .inputs .email{
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .cta-sec .inputs button{
+        font-size: 12px;
+    }
+
+    .cta-sec .hero-content ul{
+        font-size: 12px;
+    }
+
+    .cta-sec .hero-content ul{
+        font-size: 12px;
+    }
+
+    .cta-sec .hero-content{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .cta-sec h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 332px){
+    .cta-sec .inputs .email{
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .cta-sec .inputs button{
+        font-size: 12px;
+    }
+
+    .cta-sec .hero-content ul{
+        font-size: 10px;
+    }
+}
+/* ================ CTA Section End ================ */
+
+
+/* ================ Features Section 3 Start ================ */
+@media only screen and (max-width: 415px){
+    .features-sec-3 h2{
+        font-size: 40px;
+    }
+}
+/* ================ Features Section 3 End ================ */
+
+
+/* ================ Social Proof Video Section Start ================ */
+@media only screen and (max-width: 1150px){
+    .social-proof-sec .proof-box{
+        flex-direction: column;
+    }
+
+    .social-proof-sec .social-prrof-text{
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .social-proof-sec .proof-box img{
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .social-proof-sec .proof-box img{
+        width: 100%;
+        height: auto;
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .social-proof-sec h2{
+        font-size: 40px;
+    }
+}
+/* ================ Social Proof Video Section End ================ */
+
+
+/*  ================ Social Proof Reviews Section Start ================  */
+@media only screen and (max-width: 415px){
+    .social-reviews-sec h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .social-reviews-sec .features-service p{
+        margin-bottom: 25px;
+    }
+}
+/* ================ Social Proof Reviews Section End ================ */
+
+
+/* ================ Pricing Section Start ================ */
+@media only screen and (max-width: 415px){
+    .pricing-sec h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .pricing-sec .pricing-card{
+        max-width: 260px; 
+    }
+
+    .pricing-sec .hover-shown{
+        font-size: 14px; 
+        padding: 10px; 
+    }
+
+    .pricing-sec .card{
+        width: 100%;
+        padding: 12px; 
+        height: auto;
+    }
+
+    .pricing-sec .card button{
+        max-width: 180px; 
+        height: 45px;
+        font-size: 13px; 
+    }
+
+    .pricing-sec .card ul{
+        font-size: 13px; 
+    }
+
+    .pricing-sec .card ul li{
+        margin-bottom: 8px;
+    }
+
+    .pricing-sec .card h3{
+        font-size: 24px; 
+    }
+
+    .pricing-sec .card .price{
+        font-size: 28px; 
+    }
+
+    .pricing-sec .card .price sub{
+        font-size: 14px; 
+    }
+}
+/* ================ Pricing Section End ================ */
+
+
+/* ================ Social Proof Section 2 Start ================ */
+@media only screen and (max-width: 415px){
+    .social-proof-sec-2 .social-websites h2{
+        font-size: 35px;
+    }
+}
+/* ================ Social Proof Section 2 End ================ */
+
+
+/* ================ CTA Section 2 Start ================ */
+@media only screen and (max-width: 600px){
+    .cta-sec-2{
+        padding: 4em 0;
+    }
+}
+
+
+@media only screen and (max-width: 440px){
+    .cta-sec-2 .inputs .email{
+        padding: 4px;
+    }
+
+    .cta-sec-2 .inputs button{
+        padding: 0 10px;
+    }
+
+    .cta-sec-2 .inputs .email{
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .cta-sec-2 .inputs button{
+        font-size: 12px;
+    }
+
+    .cta-sec-2 .hero-content ul{
+        font-size: 12px;
+    }
+
+    .cta-sec-2 .hero-content ul{
+        font-size: 12px;
+    }
+
+    .cta-sec-2 .hero-content{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .cta-sec-2 h2{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 332px){
+    .cta-sec-2 .inputs .email{
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .cta-sec-2 .inputs button{
+        font-size: 12px;
+    }
+
+    .cta-sec-2 .hero-content ul{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .cta-sec-2{
+        padding: 6em 0;
+    }
+}
+/* ================ CTA Section 2 End ================  */
+
+
+/* ================ Footer Section Start ================  */
